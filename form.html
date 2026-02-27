@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Js Form</h1>
+    <br />
+    <form action="/" novalidate>
+      <h1>SignUp Form</h1>
+      <div class="inputBox">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          name="username"
+          placeholder="Enter your name"
+          id="username"
+          required
+        />
+      </div>
+      <div class="inputBox">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+          id="email"
+          required
+        />
+      </div>
+      <div class="inputBox">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter your password"
+          id="password"
+          required
+        />
+      </div>
+      <div class="inputBox">
+        <label for="ConfirmPassword">ConfirmPassword</label>
+        <input
+          type="password"
+          name="ConfirmPassword"
+          placeholder="Enter ConfirmPassword"
+          id="ConfirmPassword"
+          required
+        />
+      </div>
+      <button type="submit">Submit</button>
+      <div id="form-info">
+        <p id="form-msg">Enter all fields</p>
+      </div>
+    </form>
+  </body>
+</html>
