@@ -27,7 +27,7 @@ form.addEventListener("submit", (e) => {
     msg.textContent = message;
     msg.style.color = "white";
   }
-  function showSuccess() {
+  function showSuccessfull() {
     formInfo.style.backgroundColor = "Green";
     msg.textContent = "Thank you for Signed";
     msg.style.color = "Black";
@@ -55,5 +55,5 @@ form.addEventListener("submit", (e) => {
   }
 
   console.log(Object.fromEntries(formData.entries()));
-  showSuccess();
+  showSuccessfull();
 });
